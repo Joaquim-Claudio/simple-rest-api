@@ -1,0 +1,24 @@
+GET http://localhost:5555/movies
+
+###
+
+POST http://localhost:5555/movies
+Content-Type: application/json
+
+{
+    "title": "O circulo",
+    "duration": 150
+}
+
+###
+
+PUT http://localhost:5555/movies/31
+Content-Type: application/json
+
+{
+    "duration": 99
+}
+
+###
+
+DELETE http://localhost:5555/movies/8
